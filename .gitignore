@@ -1,0 +1,28 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+.terraformrc
+terraform.rc
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+
+# Windows
+*.exe
+*.msi
+*.lnk
+Thumbs.db
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
